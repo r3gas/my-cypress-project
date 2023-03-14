@@ -1,7 +1,7 @@
 /// <reference types="Cypress" />
 
 describe("Inspect Automation Test Store Items using chain commands", () => {
-    it("Should be able to click on first item using item header", () => {
+    it.only("Should be able to click on first item using item header", () => {
         cy.visit('https://automationteststore.com/');
         // Class Name usaes period
         // Chain get on class name with contains Text, then chain click()
